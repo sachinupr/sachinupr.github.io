@@ -1,0 +1,302 @@
+
+
+body{
+	background: #363636;
+}
+table{
+	/*background: #171717;*/
+	margin-top: 1%;
+	margin-bottom:1%;
+	margin-left: 65%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imp{
+	text-decoration :none;
+	color: inherit;
+    }
+
+@media (max-width:600px) 
+{
+	table{
+		margin-left: 50%;
+	 font-size:13px;
+	}
+}
+th{
+	color: ghostwhite;
+}
+
+#c:hover,#b:hover,#d:hover{
+   background-color:deepskyblue;
+}
+.imp{
+	text-decoration :none;
+	color: inherit;
+}
+#f{
+	color: navajowhite;
+	font-family: algerian;
+	font-size: 40px;
+	text-align: center;
+}
+@media(max-width:400px)
+{
+	#f{
+		font-size: 30px;
+	}
+}
+#e{
+	background:#262626;
+    margin-left:18%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+	width: 63%;
+	height: 70%; 
+	border-radius: 10%;
+	border-color:lightgrey;
+	border-style: solid;
+	float: left;
+	border-width: 4px;
+}
+
+.check{
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 21%;
+	height:28%;
+	border-radius: 20%;
+	border-colour: ghostwhite;
+	border-style: solid;
+	background-size: cover; 
+}
+
+@media(max-width: 600px)
+{
+	#e{   width: 90%;
+         height:55%;
+         padding-bottom:0px;
+         padding-top:70px;          
+         margin-bottom:13%;  
+         margin-left: 4%;
+     	}
+	.check{
+		height: 22%;
+
+	}
+}
+
+#fool{
+	color: navajowhite;
+	text-align: center;
+	font-size: 40px;
+	font-family: algerian ;
+}
+@media(max-width:400px)
+{
+	#fool{
+		font-size: 30px;
+	}
+}
+
+h1{
+	text-align: center;
+	font-family: algerian;
+	color: antiquewhite;
+	font-size: 40px;
+}
+@media(max-width: 400px)
+{
+	h1{
+	font-size:30px; 
+}
+}
+
+footer{
+	background-color:#262626;
+}
+#final{
+	background-color:#262626 ;
+	width: 60%;
+	height:120%;  
+	border-radius: 16%;
+	border-color:lightgrey;
+	border-style: solid;
+	margin-left: 20%;	
+	border-width: 4px;
+}
+
+.ln{
+	/*margin-top: 4%;*/
+	margin-left: 7%;
+	width: 300px;
+	height:300px;
+	border-radius: 30%;
+	float: left;  // Important 
+}
+
+#play{
+	
+	text-align: center;
+	color: ghostwhite;
+	font-family:cursive;
+	font-size: 30px;
+	font-weight: bold;
+}
+@media(max-width:600px)
+{
+	#play{
+		font-size: 18px;
+	}
+}
+.cricket{
+	margin-left:16% ;
+	color: ghostwhite;
+	font-family:Arial;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media(max-width:600px)
+{
+	.cricket{
+		margin-top: 36px;
+		margin-left: 0px;
+		font-size: 16px;
+		text-align: center;
+	}
+}
+
+
+.line{
+	background: darkslategrey;
+	width: 100%;
+	height: 1%;
+}
+#ln{
+	margin-left: 7%;
+	width: 300px;
+	height:300px;
+	border-radius: 30%;
+	float: left;  
+}
+@media(max-width:600px)
+{
+	#ln{
+		 width: 140px;
+		 height: 140px;
+	}
+}
+
+#mn{
+	margin-left: 7%;
+	width: 300px;
+	height:300px;
+	border-radius: 30%;
+	float: left;
+}
+@media(max-width:600px)
+{
+	#mn{
+	   width: 140px;
+	   height: 140px;
+	}
+}
+
+
+.x{
+	font-size: 25px;
+	font-family: arial;
+	text-decoration: none;
+	color: deepskyblue;
+	margin-left: 13%;
+	/*text-align: center;*/
+}
+.y{
+	font-size: 25px;
+	font-family: arial;
+	text-decoration: none;
+	color: deepskyblue;
+	margin-left: 2%;
+	/*text-align: center;*/
+}
+
+@media(max-width:600px)
+{
+	.x{
+		font-size:18px;
+      /*margin-left: 0%;*/
+      text-align: center;
+
+	}
+	.y{
+		font-size: 18px;
+	/*	margin-left: 0px;
+*/		/*text-align: center;*/
+	}
+}
+
+
+#special
+{
+	padding-top: 70px;
+	padding-left: 25px;
+	padding-right: 25px;
+	/*margin-top: 50px;*/
+   background:#262626;
+   width: 50%;
+   height:80%;
+   border-radius: 20%;
+   border-color: whitesmoke;
+   border-widht: 4px;
+   border-style: solid;
+}
+
+#ach{
+	margin-top: 50px;  
+	font-size: 45px;
+	font-family: algerian;
+	text-align: center;
+	color:navajowhite ;
+}
+@media(max-width: 400px)
+{
+	#ach{
+		font-size: 32px;
+	}
+}
+
+.list{
+	text-align: center;
+	color: lightskyblue;
+	font-size: 20px;
+	font-family: cursive;
+}
+@media(max-width: 900px)
+{
+	.list{
+		font-size: 15px;
+	}
+}
+@media(max-width: 600px)
+{
+	.list{
+		font-size: 12px;
+	}
+}
+@media(max-width: 400px)
+{
+    #special{
+     width: 67%;
+    }
+}
+
+
+.link{
+   color: whitesmoke;
+
+}

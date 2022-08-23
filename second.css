@@ -1,0 +1,115 @@
+
+
+body{
+  background: black;
+}
+
+p{ 
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color:paleturquoise;
+	text-align:center;
+   border: 5px;
+   border-color: red;
+   width:45%;
+   border-style: dashed; 
+   font-size:25px;     
+   font-family:algerian;
+   padding-top: 10px;
+   font-weight:bold;  
+ }
+
+ /* @media(max-width: 800px)
+  {
+    p{
+      margin-top: 30px;
+      font-size: 15px;
+      width: 40%;
+      margin-bottom: 40px;
+    }
+  }
+*/
+ p:hover{
+ 	color:darkblue;
+    background: yellow;
+          }
+
+  #fin{
+    border:7px;
+    border-style: solid;
+    border-color: skyblue;
+    width: 620px;
+    height: 620px;
+  }
+
+   @media(max-width: 700px)   /* So, called responsive Outer Div*/
+   {
+    #fin{
+      width: 290px;
+      height: 290px;
+    }
+    
+   }
+
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9 {
+    border:5px;
+    border-style: solid;
+    border-color: darkred;
+    background: white;
+    height:200px;
+    width:200px;
+    float:left; 
+    font-size: 180px;
+    color: rebeccapurple;
+    text-align: center;
+}
+
+@media(max-width: 700px) 
+   {
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9{
+ /* margin-top: 500px;*/
+      width:92.6px ;
+      height: 92.6px;
+       border:3px;
+    border-style: solid;
+    border-color: darkred;
+    font-size: 70px;
+    text-align: center;
+    }
+}
+
+
+#a1,#a4,#a7{
+  clear: left;
+  border-left: none;
+}
+
+#a3,#a6,#a9 {
+  border-right: none;
+} 
+
+#a1,#a2,#a3{
+  border-top: none;
+}
+
+#a7,#a8,#a9{
+  border-bottom: none;
+  margin-bottom: 50px;
+}
+
+#a1:hover,#a2:hover,#a3:hover,#a7:hover,#a8:hover,#a9:hover
+{
+   background: yellow; 
+}
+#a4:hover,#a5:hover,#a6:hover
+{
+   background: orange;
+}
+#a7:hover,#a8:hover,#a9:hover
+{
+   background: palegreen;
+}
+
+
+
+

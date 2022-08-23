@@ -1,0 +1,174 @@
+
+
+#cd:hover,#ab:hover
+{
+	background-color:lightskyblue ;
+}
+/*#ok{
+   text-decoration :none;
+	color: inherit;
+}*/
+#ab{
+   border-radius:20%;
+	color:white;
+	font-family: cursive;
+	font-size: 23px;
+	padding: 20px;
+	margin-left:37%;
+	margin-right: 2%;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	background-color:#262626;
+	text-align: center;
+}
+#cd{
+	border-radius: 20%;
+	color:white;
+	margin-top: 30px;
+	font-family: cursive;
+	font-size: 23px;
+	padding: 20px;
+	margin-bottom: 50px;
+   background-color: #262626;
+   text-align: center;
+}
+@media (max-width:610px)
+{
+	#ab{
+        margin-left: 5%;
+	}
+}
+
+@media (max-width:400px)
+{
+	#ab{
+		margin-top: 19%;
+        font-size: 15px;
+        margin-left:13%;   /*edited*/
+	}
+	#cd{
+		margin-top: 19%; 
+		font-size: 15px;
+	}
+}
+
+body{
+	background:black;
+   }
+
+marquee{
+	font-family: cursive;
+	font-size: 30px;
+	color:papayawhip;
+}
+@media (max-width: 400px)
+{
+	marquee{
+		margin-left:90px;
+		width:40%;
+		font-size:15px ;      
+	}
+}
+h1{
+	text-align: center;
+	font-family: algerian;
+	color: antiquewhite;
+}
+
+footer{
+	background-color:#111111;
+	margin-bottom:0%;
+}
+table{
+	margin-top: 1%;
+	margin-bottom:1%;
+	margin-left: 65%;
+   text-align: center;
+   font-size: 20px;
+}
+
+@media(max-width: 600px)
+{
+	table{
+		 margin-left: 50%;
+		 font-size: 14px;
+	}
+}   
+h1{
+	margin-top: 75px;  /*worked*/
+	font-size: 40px;
+}  
+@media(max-width: 400px)
+{
+	h1{
+	font-size:30px; 
+}
+}
+th{
+	color: ghostwhite;}
+
+#c:hover,#b:hover,#d:hover{
+   background-color:deepskyblue;
+}
+
+.imp{
+	text-decoration :none;
+	color: inherit;
+    }
+
+#bb{
+	color: whitesmoke;
+	font-family: Algerian;
+	text-align: center;
+	font-size: 50px;
+}
+
+#aa{
+	flex-basis: 40%;
+	color: antiquewhite;
+	font-family: arial;
+	font-size: 36px;
+	text-align: center;
+}
+#photo{
+	width:100%;
+	height:50%;
+   padding-top: 5%;
+	background-image: url(code.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	display:flex;          
+	align-items: center;
+	justify-content: center;
+}
+#o{
+	background-image: url(sachin.jpg);
+   background-size:cover;
+	background-repeat:no-repeat;
+	border-style:solid;
+	border-width:5px;
+	border-color:white;
+	border-radius:80%;
+	width:370px;  
+   height:370px;   
+	}
+	@media(max-width: 400px)
+	{
+		#o
+		{
+			width: 270px;
+			height: 290px;
+		}
+	}
+
+@media (max-width:400px)
+{
+     #bb{
+     	    font-size: 36px;
+     }  
+     #aa{
+     	font-size: 26px;
+     }     
+}
+
+

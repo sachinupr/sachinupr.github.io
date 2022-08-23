@@ -1,0 +1,41 @@
+
+p{
+	margin-top: 10px;
+	color: purple;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Algerian;
+    text-align: center;
+}
+
+#real{
+	background:yellowgreen;
+	border-color: red;
+	border-style: solid;
+	border-width: 5px; 
+	width: 1000px;
+	height: 600px;
+	margin-left: 200px;
+}
+#a,#b,#c,#d,#e
+{
+margin-top: 50px;
+}
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,#m,#n,#o
+{
+	  background: darkorange;
+      border-style: solid;
+      border-color: royalblue;
+      width: 170px;
+      height: 150px;
+      margin-left: 20px;
+      float :left;
+      margin-bottom: 20px;
+      font-size: 40px;
+      color: black;
+      font-family: algerian;
+      text-align: center;
+     
+}
+
+
