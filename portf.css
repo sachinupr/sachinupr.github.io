@@ -256,7 +256,14 @@ footer{
 	}
 }
 
+@media(max-width:400px)
+{
+	.x{
+		font-size:18px;
+      margin-left: 0px;
 
+	}
+}
 #special
 {
 	padding-top: 70px;
@@ -323,12 +330,13 @@ footer{
 	#final{
 		padding-top: 40px;
 		height: 110%;
+		padding-bottom:10px;
 	}
 }
 @media(max-width: 400px)
 {
 	.line{
 		margin-top:0%;
-		margin-bottom:15%;
+		margin-bottom:21%;
 			}
 }
