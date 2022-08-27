@@ -191,6 +191,14 @@ footer{
 		 height: 140px;
 	}
 }
+@media(max-width:400px)
+{
+	#ln{
+		margin-left: 18%;
+	   /*width: 140px;
+	   height: 140px;*/
+	}
+}
 
 #mn{
 	margin-left: 7%;
@@ -204,6 +212,14 @@ footer{
 	#mn{
 	   width: 140px;
 	   height: 140px;
+	}
+}
+@media(max-width:400px)
+{
+	#mn{
+		margin-left: 18%;
+	   /*width: 140px;
+	   height: 140px;*/
 	}
 }
 
@@ -274,7 +290,7 @@ footer{
 	text-align: center;
 	color: lightskyblue;
 	font-size: 20px;
-	font-family: cursive;
+	font-family:cursive;
 }
 @media(max-width: 900px)
 {
@@ -292,6 +308,7 @@ footer{
 {
     #special{
      width: 67%;
+     height: 70%;
     }
 }
 
@@ -299,4 +316,19 @@ footer{
 .link{
    color: whitesmoke;
 
+}
+
+@media(max-width: 400px)
+{
+	#final{
+		padding-top: 40px;
+		height: 110%;
+	}
+}
+@media(max-width: 400px)
+{
+	.line{
+		margin-top:0%;
+		margin-bottom:15%;
+			}
 }
