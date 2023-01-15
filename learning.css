@@ -57,7 +57,7 @@ body{
    }
 
 marquee{
-	font-family: cursive;
+	font-family: arial;
 	font-size: 30px;
 	color:papayawhip;
 }
@@ -71,7 +71,7 @@ marquee{
 }
 h1{
 	text-align: center;
-	font-family: algerian;
+	font-family: arial;
 	color: antiquewhite;
 }
 
@@ -118,7 +118,7 @@ th{
 
 #bb{
 	color: whitesmoke;
-	font-family: Algerian;
+	font-family: arial;
 	text-align: center;
 	font-size: 50px;
 }
