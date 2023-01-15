@@ -268,7 +268,7 @@ footer{
 	padding-top: 70px;
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-bottom: 30px;
+	/*padding-bottom: 30px;*/
 	/*margin-top: 50px;*/
    background:#262626;
    width: 50%;
@@ -318,7 +318,8 @@ footer{
 {
     #special{
      width: 67%;
-     height: 76%;
+     height: 70%;
+     /*padding-bottom: 20px;*/
     }
 }
 
