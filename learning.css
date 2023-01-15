@@ -36,6 +36,7 @@
 {
 	#ab{
         margin-left: 5%;
+        font-family: arial;
 	}
 }
 
@@ -117,6 +118,7 @@ th{
 .imp{
 	text-decoration :none;
 	color: inherit;
+	font-family: arial;
     }
 
 #bb{
